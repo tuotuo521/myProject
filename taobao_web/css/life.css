@@ -1,0 +1,382 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #3c3c3c;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+h3,h4{
+	font-size: 100%;
+}
+
+
+/* 鼠标悬停的样式 */
+.imgBorder_hover{
+	border: 1px solid #ff4400!important;
+}
+.Text_hover{
+	color: #ff4400!important;
+}
+
+
+.threediv_wrap{
+	width: 1200px;
+	height: 844px;
+	margin: 0 auto;
+}
+
+/* 生活研究所 */
+.lifehouse_wrap{
+	width: 1200px;
+	height: 166px;
+	margin-top: 10px;
+	overflow: hidden;
+	background-color: #FFF;
+}
+.lifehouse_wrap>h3{
+	margin-top: 19px;
+	height: 24px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+.lifehouse_wrap>h3>a{
+	float: left;
+	display: inline-block;
+}
+.lifehouse_wrap>h3>a>img{
+	float: left;
+	display: inline;
+	height: 24px;
+	margin-right: 5px;
+}
+.lifehouse_wrap>h3>p{
+	line-height: 24px;
+	height: 24px;
+	color: #999;
+	font-weight: 400;
+}
+.lifehouse_wrap>h3>p>span{
+	margin-left: 6px;
+}
+
+.lifehouse_wrap>ul{
+	padding-left: 20px;
+}
+.lifehouse_wrap>ul>li{
+	position: relative;
+	float: left;
+	width: 194px;
+	height: 82px;
+}
+.lifehouse_wrap>ul>li>a{
+	display: block;
+}
+.lifehouse_wrap .img_wrap{
+	height: 66px;
+	width: 66px;
+	transform: scale(1);
+	-webkit-transform:scale(1);
+	border: 1px solid #13d0a1;
+	border-radius: 100%;
+	-webkit-border-radius:100%;
+	background-clip: padding-box;
+	-webkit-background-clip:padding-box;
+	float: left;
+	padding: 7px;
+	overflow: hidden;
+}
+.lifehouse_wrap .img_wrap>img{
+	display: block;
+	width: 66px;
+	height: 66px;
+	-webkit-transition:all .2s;
+	transition: all .2s;
+}
+.lifehouse_wrap .text_wrap{
+	margin-left: 91px;
+}
+.lifehouse_wrap .text_wrap h4{
+	height: 24px;
+	padding: 0;
+	margin: 0;
+    overflow: hidden;
+    margin-top: 6px;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+.lifehouse_wrap .text_wrap .text1{
+	overflow: hidden;
+    height: 22px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999;
+}
+.lifehouse_wrap .text_wrap .text2{
+	line-height: 30px;
+    height: 30px;
+    color: #999;
+    font-size: 12px;
+    overflow: hidden;
+}
+.lifehouse_wrap .text_wrap .text2>i{
+	color: #13d0a1;
+	font-family: iconfont!important;
+	font-size: 14px;
+	font-style: normal;
+	display: inline-block;
+}
+
+.twopic_wrap{
+	margin-top: 10px;
+	width: 1200px;
+	height: 658px;
+}
+
+
+/* 有好货部分 */
+.lovegoods_wrap{
+	position: relative;
+	float: left;
+	width: 590px;
+	height: 658px;
+	background-color: #FFF;
+}
+.lovegoods_wrapper>h3{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+}
+.lovegoods_wrapper>h3>img{
+	float: left;
+	height: 24px;
+	margin-right: 5px;
+}
+.lovegoods_wrapper>h3>p{
+	line-height: 24px;
+	height: 24px;
+	color: #999;
+	font-weight: 400;
+}
+.lovegoods_wrapper>h3>p>span{
+	margin-left: 6px;
+}
+.lovegoods_pic_wrap{
+	position: relative;
+	float: left;
+	width: 26px;
+	height: 24px;
+	text-align: center;
+}
+.lovegoods_wrapper>h3>span{
+	position: absolute;
+	top: 0;
+	right: 20px;
+	line-height: 24px;
+	height: 24px;
+	width: 100px;
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+	cursor: pointer;
+	font-weight: 400;
+}
+.lovegoods_wrapper>ul{
+	padding-left: 21px;
+}
+.lovegoods_wrapper>ul>li{
+	float: left;
+	width: 180px;
+	overflow: hidden;
+	margin: 0 4px 17px 0;
+}
+.lovegoods_wrapper .lovegoods_pic{
+	position: relative;
+	background-color: #4f4f4f;
+}
+.lovegoods_wrapper .lovegoods_pic>img{
+	width: 100%;
+	height: 180px;
+	opacity: 0.9;
+	display: block;
+	background-color: #FFF;
+}
+/* 鼠标悬停时的图片背景 */
+.lovegoods_hidecolor{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #b6b6b729;
+}
+.lovegoods_wrapper .lovegoods_text{
+	overflow: hidden;
+	padding-left: 10px;
+}
+.lovegoods_wrapper .lovegoods_text>h4{
+	margin-top: 5px;
+	margin:0;
+	padding:0;
+    font-size: 16px;
+    height: 28px;
+    overflow: hidden;
+    line-height: 28px;
+    font-weight: normal;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+.lovegoods_wrapper .lovegoods_text p{
+	line-height: 24px;
+    color: #999;
+    font-size: 14px;
+    overflow: hidden;
+    height: 24px;
+}
+.lovegoods_wrapper .lovegoods_text .someonesay_wrap{
+	line-height: 22px;
+    height: 22px;
+    margin-top: 12px;
+    color: #35b1ff;
+}
+.lovegoods_wrapper .lovegoods_text .someonesay_wrap .someoneimg{
+	margin-right: 4px;
+	font-family: iconfont!important;
+    font-size: 14px;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* 爱逛街部分 */
+.loveshopping_wrap{
+	float: right;
+	width: 590px;
+	height: 659px;
+	background-color: #FFF;
+}
+.loveshopping_wrapper>h3{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+}
+.loveshopping_wrapper>h3>img{
+	float: left;
+	height: 24px;
+	margin-right: 5px;
+}
+.loveshopping_wrapper>h3>p{
+	line-height: 24px;
+	height: 24px;
+	color: #999;
+	font-weight: 400;
+}
+.loveshopping_wrapper>h3>p>span{
+	margin-left: 6px;
+}
+.loveshopping_pic_wrap{
+	position: relative;
+	float: left;
+	width: 26px;
+	height: 24px;
+	text-align: center;
+}
+.loveshopping_pic{
+	position: relative;
+}
+.loveshopping_wrapper>h3>span{
+	position: absolute;
+	top: 0;
+	right: 20px;
+	line-height: 24px;
+	height: 24px;
+	width: 100px;
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+	cursor: pointer;
+	font-weight: 400;
+}
+
+.loveshopping_wrapper>ul{
+	padding-left: 21px;
+}
+.loveshopping_wrapper>ul>li{
+	float: left;
+	width: 180px;
+	overflow: hidden;
+	margin: 0 4px 17px 0;
+}
+.loveshopping_wrapper .loveshopping_pic{
+	background: #4f4f4f;
+}
+.loveshopping_wrapper .loveshopping_pic>img{
+	width: 100%;
+	height: 180px;
+	opacity: 0.9;
+	display: block;
+	background: #FFF;
+}
+.loveshopping_wrapper .loveshopping_text{
+	overflow: hidden;
+	padding-left: 10px;
+}
+.loveshopping_wrapper .loveshopping_text>p{
+	margin-top: 11px;
+	line-height: 22px;
+	height: 44px;
+	overflow: hidden;
+	font-size: 14px;
+	color: #999;
+}
+.loveshopping_wrapper .loveshopping_text>p>span{
+	color: #ebebeb;
+	float: left;
+	margin-top: -4px;
+	margin-right: 4px;
+	font-family: iconfont!important;
+	font-size: 14px;
+	font-style: normal;
+	display: inline-block;
+}
+.loveshopping_wrapper .loveshopping_text .loveshopping_text_people{
+	margin-top: 14px;
+}
+.loveshopping_wrapper .loveshopping_text .loveshopping_text_people>div{
+	float: left;
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	-webkit-border-radius:50%;
+	background-clip: padding-box;
+	-webkit-background-clip: padding-box;
+	overflow: hidden;
+}
+.loveshopping_wrapper .loveshopping_text .loveshopping_text_people>div>img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.loveshopping_wrapper .loveshopping_text .loveshopping_text_people>p{
+	margin-left: 30px;
+	line-height: 22px;
+	font-size: 12px;
+	color: #999;
+}

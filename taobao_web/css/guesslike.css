@@ -1,0 +1,220 @@
+h3,h4{
+	margin: 0;
+	padding: 0;
+}
+em{
+	font-style: normal;
+}
+
+/* 公共样式 */
+.tb-ifont{
+	font-family: iconfont!important;
+    font-size: 14px;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* 猜你喜欢部分 */
+.guesslike_wrap{
+	position: relative;
+	width: 1200px;
+	height: 434px;
+	margin:20px auto 0;
+	background-color: #fff;
+}
+.guesslike_wrap>h3{
+	position: relative;
+	padding-left: 32px;
+	margin-top: 5px;
+	line-height: 48px;
+	font-size: 20px;
+	color: #ff9f00;
+	border-bottom: 1px solid #f4f4f4;
+}
+.guesslike_wrap>h3:before{
+	content: '';
+	position: absolute;
+	top: 16px;
+	left: 20px;
+	width: 4px;
+	height: 16px;
+	background-repeat: repeat-x;
+	background-image: linear-gradient(45deg,#fad961,#ff9f00);
+	background: #ff9f00;
+}
+
+.guesslike_goods_wrap{
+	min-height: 50px;
+	height: 335px;
+}
+.guesslike_goods_item{
+	float: left;
+    padding: 20px 20px 0 20px;
+    border: 1px solid transparent;
+    color: #6c6c6c;
+    width: 196px;
+    height: 312px;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: border-color 0.3s;
+    -moz-transition: border-color 0.3s;
+    -o-transition: border-color 0.3s;
+    transition: border-color 0.3s;
+    border-right-color: #f4f4f4;
+    border-bottom-color: #f4f4f4;
+}
+.guesslike_goods_describe .guesslike_goods_img{
+	width: 197px;
+	height: 197px;
+	overflow: hidden;
+	background: #4f4f4f;
+}
+.guesslike_goods_describe .guesslike_goods_img>img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+    background: #fff;
+}
+.guesslike_goods_describe>h4{
+	margin-top: 7px;
+    line-height: 22px;
+    height: 44px;
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+    transition: color 0.3s;
+    overflow: hidden;
+}
+.guesslike_goods_item>p{
+	margin-top: 22px;
+	height: 24px;
+	line-height: 24px;
+}
+.guesslike_goods_item>p .marks{
+	float: left;
+    width: 0;
+    height: 18px;
+    margin-right: 8px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    position: relative;
+    -webkit-border-radius: 4px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 4px;
+    -moz-background-clip: padding;
+    border-radius: 4px;
+    background-clip: padding-box;
+}
+.guesslike_goods_item>p .price{
+	float: left;
+	color: #F40;
+	font-size: 20px;
+}
+.guesslike_goods_item>p .price>em{
+	font-family: "Microsoft Yahei";
+    display: inline-block;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    margin-right: 2px;
+    font-size: 12px;
+    vertical-align: inherit;
+}
+.guesslike_goods_item>p .sales{
+	float: right;
+	color: #9ca0aa;
+}
+/* 隐藏菜单 */
+.guesslike_goods_item .guesslike_goods_simple_wrap{
+	display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 236px;
+    height: 82px;
+    background: #FF5000;
+}
+.guesslike_goods_item .guesslike_goods_simple_wrap .guesslike_goods_simple_title{
+	margin: 0 auto;
+    width: 120px;
+    margin-top: 15px;
+    line-height: 32px;
+    height: 32px;
+    font-size: 18px;
+    font-weight: normal;
+    border-bottom: 1px solid #FE964A;
+    color: #FFF;
+    text-align: center;
+}
+.guesslike_goods_item .guesslike_goods_simple_wrap .guesslike_goods_simple_title>i{
+	font-size: 16px;
+	margin-right: 4px;
+}
+.guesslike_goods_item .guesslike_goods_simple_wrap .guesslike_goods_simple_main{
+	line-height: 22px;
+    font-size: 12px;
+    height: 22px;
+    color: #fff;
+    text-align: center;
+}
+
+.guesslike_end_wrap{
+	position: relative;
+	height: 50px;
+	background: #f4f4f4;
+}
+.guesslike_end_wrap>i{
+	display: inline;
+	position: absolute;
+	left: 50%;
+	top: 20px;
+	width: 84px;
+	line-height: 20px;
+	font-size: 18px;
+	margin-left: -42px;
+	font-style: normal;
+	text-align: center;
+	color: #ccccd0;
+}
+.guesslike_end_wrap>i:before{
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: -70px;
+	width: 60px;
+	height: 0;
+	line-height: 0;
+	border-top: 1px solid #e6e6e6;
+}
+.guesslike_end_wrap>i:after{
+	content: '';
+	position: absolute;
+	top: 10px;
+	right: -70px;
+	width: 60px;
+	height: 0;
+	line-height: 0;
+	border-top: 1px solid #e6e6e6;
+}
+
+
+/* hot图片 */
+.guesslike_goods_item>p .hot{
+	background-image: url(../images/hot.png);
+	width: 33px;
+	height: 15px;
+	left: 0;
+	top: 5px;
+}
+
+/* 鼠标悬停的样式 */
+.goods_border{
+	border: 1px solid #FF5000!important;
+}

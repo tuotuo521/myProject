@@ -1,0 +1,50 @@
+.help_wrap{
+	width: 1200px;
+	height: 140px;
+	padding-top: 40px;
+	margin: 0 auto;
+}
+.help_wrap .help_mod_wrap{
+	float: left;
+	margin-right: -1px;
+	width: 25%;
+}
+.help_wrap .help_mod_wrap .help_mod{
+	padding: 0 25px;
+}
+.help_wrap .help_mod_wrap .help_mod>h4{
+	width: 100%;
+	height: 48px;
+	margin-bottom: 5px;
+}
+.help_wrap .help_mod_wrap .help_mod>h4>i{
+	float: left;
+	font-style: normal;
+	font-size: 32px;
+	color: #999;
+}
+.help_wrap .help_mod_wrap .help_mod>h4>span{
+	float: left;
+	margin-left: 12px;
+	padding-top: 12px;
+	font-size: 16px;
+	color: #3c3c3c;
+}
+.help_wrap .help_mod_wrap .help_mod>ul>li{
+	display: inline-block;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    margin-right: 10px;
+    float: left;
+    width: auto;
+}
+.help_wrap .help_mod_wrap .help_mod>ul>li>a{
+	color: #999;
+}
+
+/* 鼠标滑过样式 */
+.helpli_hover{
+	color: #F40!important;
+}

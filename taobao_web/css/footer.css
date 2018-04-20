@@ -1,0 +1,63 @@
+.footer_wrap{
+	width: 100%;
+	max-height: 100%!important;
+	margin-top: 20px;
+	padding-bottom: 9px;
+	background-color: #fff;
+	font-size: 12px;
+}
+
+/* 共同样式 */
+.footer_wrap .footer_hd,
+.footer_wrap .footer_bd,
+.footer_wrap .footer_ft{
+	width: 1190px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer_wrap .footer_hd a,
+.footer_wrap .footer_bd a{
+	white-space: nowrap;
+	color: #6c6c6c;
+	text-decoration: none;
+}
+.footer_wrap span{
+	margin: 0 4px;
+}
+.footer_wrap .footer_hd b{
+	margin: 0 3px;
+	font-weight: 400;
+	color: #ddd;
+}
+.tb-footer-mod{
+	background-image: url(../images/police.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	height: 40px;
+}
+
+
+
+.footer_wrap .footer_hd{
+	padding-top: 7px;
+	border-top: 1px solid #ddd;
+}
+.footer_wrap .footer_hd>p{
+	margin-bottom: 8px;
+	line-height: 27px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 8px;
+	overflow: hidden;
+}
+
+.footer_wrap .footer_bd>p{
+	padding-bottom: 8px;
+	overflow: hidden;
+}
+.footer_wrap .footer_bd .policman{
+	background-position: -861px 0px;
+	width: 20px;
+	height: 20px;
+}

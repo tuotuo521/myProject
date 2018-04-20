@@ -1,0 +1,257 @@
+/* 淘抢购 */
+.qiang_wrap{
+	margin: 10px auto 0;
+	width: 1200px;
+	height: 264px;
+	background-color: #fff;
+}
+h3{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+
+/* 鼠标悬停时颜色变化的样式 */
+.qiang_pricehover{
+	color: #ff5000!important;
+}
+
+
+/* 淘抢购logo和其余文字 */
+.qiang_title{
+	position: relative;
+	width: 1180px;
+	height: 24px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.qiang_title>a{
+	float: left;
+	display: inline;
+}
+.qiang_title>a>img{
+	height: 22px;
+	margin-right: 5px;
+}
+
+/* 淘抢购计时器 */
+.qiang_title>p{
+	line-height: 24px;
+	height: 24px;
+	color: #999;
+	font-weight: 400;
+}
+.qiang_title>p>span{
+	margin-left: 6px;
+}
+.qiang_time{
+	color: #ff5000;
+    line-height: 20px;
+    height: 20px;
+    margin-top: 2px;
+    display: inline-block;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+}
+.qiang_time .h,
+.qiang_time .m,
+.qiang_time .s{
+	width: 20px;
+    height: 20px;
+    display: inline-block;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-align: center;
+    color: #ff5000;
+    background: #FFE4DC;
+    -webkit-border-radius: 2px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 2px;
+    -moz-background-clip: padding;
+    border-radius: 2px;
+    background-clip: padding-box;
+    font-family: sans-serif;
+    margin: 0 2px;
+    font-weight: 700;
+    font-family: arial;
+}
+
+.qiang_title .qiang_text{
+	position: absolute;
+    top: 20px;
+    right: 20px;
+    line-height: 24px;
+    height: 24px;
+    font-size: 12px;
+    color: #999;
+    width: 100px;
+    text-align: right;
+}
+.qiang_title .qiang_text>span{
+	cursor: pointer;
+	font-weight: 400;
+}
+.qiang_title .qiang_text>a{
+	margin-left: 14px;
+	color: inherit;
+	cursor: pointer;
+	font-weight: 400;
+}
+.qiang_title .qiang_text>a>i{
+	width: 12px;
+	font-size: 14px;
+	text-align: center;
+	font-family: iconfont!important;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* 淘抢购图片及文字 */
+.qiang_wrap>ul>li{
+	float: left;
+	width: 355px;
+	padding: 0 20px 0 20px;
+}
+.qiang_goods_img{
+	float: left;
+	width: 180px;
+	height: 180px;
+	background: #4f4f4f;
+	overflow: hidden;
+}
+.qiang_goods_img>img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.qiang_goods_text{
+	margin-left: 194px;
+	overflow: hidden;
+}
+.qiang_goods_text>h4{
+	margin-top: 11px;
+	line-height: 22px;
+	height: 44px;
+	overflow: hidden;
+	font-size: 16px;
+	color: #333;
+	font-weight: normal;
+}
+.qiang_goods_text>p{
+	margin-top: 12px;
+	line-height: 28px;
+	color: #999;
+}
+.qiang_goods_text_buybar1{
+	position: relative;
+    width: 159px;
+    height: 6px;
+    -webkit-border-radius: 3px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 3px;
+    -moz-background-clip: padding;
+    border-radius: 3px;
+    background-clip: padding-box;
+    background: #FFE4Dc;
+}
+.qiang_goods_text_buybar1>div{
+	position: absolute;
+    width: 25%;
+    left: 0;
+    top: 0;
+    width: 4%;
+    height: 6px;
+    -webkit-border-radius: 3px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 3px;
+    -moz-background-clip: padding;
+    border-radius: 3px;
+    background-clip: padding-box;
+    background: #FE3338;
+}
+
+.qiang_goods_text_buybar2{
+	position: relative;
+    width: 159px;
+    height: 6px;
+    -webkit-border-radius: 3px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 3px;
+    -moz-background-clip: padding;
+    border-radius: 3px;
+    background-clip: padding-box;
+    background: #FFE4Dc;
+}
+.qiang_goods_text_buybar2>div{
+	position: absolute;
+    width: 25%;
+    left: 0;
+    top: 0;
+    width: 42%;
+    height: 6px;
+    -webkit-border-radius: 3px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 3px;
+    -moz-background-clip: padding;
+    border-radius: 3px;
+    background-clip: padding-box;
+    background: #FE3338;
+}
+
+.qiang_goods_text_buybar3{
+	position: relative;
+    width: 159px;
+    height: 6px;
+    -webkit-border-radius: 3px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 3px;
+    -moz-background-clip: padding;
+    border-radius: 3px;
+    background-clip: padding-box;
+    background: #FFE4Dc;
+}
+.qiang_goods_text_buybar3>div{
+	position: absolute;
+    width: 25%;
+    left: 0;
+    top: 0;
+    width: 20%;
+    height: 6px;
+    -webkit-border-radius: 3px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 3px;
+    -moz-background-clip: padding;
+    border-radius: 3px;
+    background-clip: padding-box;
+    background: #FE3338;
+}
+
+.qiang_goods_text_counts{
+	line-height: 28px;
+	height: 28px;
+	color: #FE3338;
+}
+.qiang_goods_text_counts .letter{
+	float: right;
+	display: inline;
+	/* width: 100%; */
+	text-align: right;
+}
+.qiang_goods_text_price .yuan,
+.qiang_goods_text_price .cur{
+	font-size: 20px;
+	color: #ff5000;
+}
+.qiang_goods_text_price .price{
+	color: #999;
+	margin-left: 6;
+	text-decoration: line-through;/* 消除线 */
+}
